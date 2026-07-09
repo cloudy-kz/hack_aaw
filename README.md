@@ -50,14 +50,43 @@
 
 ## 3. Видео-демо
 
-Короткая запись работы **skaleoz** — от загрузки фото до готового PDF-заключения:
+### 🎬 Видео-презентация проекта
+
+<video src="preza_video.mp4" controls width="100%">
+  Ваш браузер не поддерживает встроенное видео.
+  Скачайте запись напрямую: <a href="preza_video.mp4">preza_video.mp4</a>
+</video>
+
+> Если видео не проигрывается прямо на странице GitHub — [откройте файл напрямую](preza_video.mp4) или скачайте его через **Code → Download**.
+
+### 📹 Демо отдельных проектов
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🩺 skaleoz** — от загрузки фото до готового PDF-заключения:
 
 <video src="web_skaleoz/demo.mp4" controls width="100%">
   Ваш браузер не поддерживает встроенное видео.
   Скачайте запись напрямую: <a href="web_skaleoz/demo.mp4">web_skaleoz/demo.mp4</a>
 </video>
 
-> Если видео не проигрывается прямо на странице GitHub — [откройте файл напрямую](web_skaleoz/demo.mp4) или скачайте его через **Code → Download**.
+</td>
+<td width="50%" valign="top">
+
+**⚕️ HepaIQ** — от ввода анализов до вердикта и PDF-заключения:
+
+<video src="web_hepaiq/demo.mp4" controls width="100%">
+  Ваш браузер не поддерживает встроенное видео.
+  Скачайте запись напрямую: <a href="web_hepaiq/demo.mp4">web_hepaiq/demo.mp4</a>
+</video>
+
+</td>
+</tr>
+</table>
+
+> Если видео не проигрывается прямо на странице GitHub — откройте файл напрямую ([skaleoz](web_skaleoz/demo.mp4) · [HepaIQ](web_hepaiq/demo.mp4)) или скачайте его через **Code → Download**.
 
 ## 4. Быстрый запуск
 
@@ -100,8 +129,10 @@ python -m http.server 5177   # → http://localhost:5177
 │   └── README.md
 ├── web_hepaiq/      # Оценка риска патологий печени и ХВГ
 │   ├── index.html
+│   ├── demo.mp4
 │   ├── docs/banner.svg
 │   └── README.md
+├── preza_video.mp4  # видео-презентация проекта целиком
 └── README.md        # этот файл
 ```
 
@@ -115,6 +146,8 @@ python -m http.server 5177   # → http://localhost:5177
 > Раздел ведётся по мере развития репозитория — короткие записи о том, что изменилось.
 
 - **2026-07-09** — добавлен общий README репозитория, объединяющий skaleoz и HepaIQ как единую презентацию для Astana AI Week 2026; встроено видео-демо skaleoz.
+- **2026-07-09** — добавлено видео-демо HepaIQ (`web_hepaiq/demo.mp4`), раздел «Видео-демо» переведён в формат «бок о бок» для обоих проектов.
+- **2026-07-09** — добавлена общая видео-презентация проекта (`preza_video.mp4`) в начало раздела «Видео-демо».
 
 ## 9. Лицензия
 
